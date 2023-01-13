@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABD04CA72972244000FF7DAF /* sphereCubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CA62972244000FF7DAF /* sphereCubeApp.swift */; };
+		ABD04CA92972244000FF7DAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CA82972244000FF7DAF /* ContentView.swift */; };
+		ABD04CAB2972244100FF7DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD04CAA2972244100FF7DAF /* Assets.xcassets */; };
+		ABD04CAF2972244100FF7DAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD04CAE2972244100FF7DAF /* Preview Assets.xcassets */; };
+		ABD04CB92972244100FF7DAF /* sphereCubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CB82972244100FF7DAF /* sphereCubeTests.swift */; };
+		ABD04CC32972244100FF7DAF /* sphereCubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CC22972244100FF7DAF /* sphereCubeUITests.swift */; };
+		ABD04CC52972244100FF7DAF /* sphereCubeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CC42972244100FF7DAF /* sphereCubeUITestsLaunchTests.swift */; };
+		ABD04CD2297224AC00FF7DAF /* CubeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CD1297224AC00FF7DAF /* CubeParameters.swift */; };
+		ABD04CD3297224AC00FF7DAF /* CubeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CD1297224AC00FF7DAF /* CubeParameters.swift */; };
+		ABD04CD4297224AC00FF7DAF /* CubeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CD1297224AC00FF7DAF /* CubeParameters.swift */; };
+		ABD04CD6297224CC00FF7DAF /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CD5297224CC00FF7DAF /* SphereParameters.swift */; };
+		ABD04CD7297224CC00FF7DAF /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CD5297224CC00FF7DAF /* SphereParameters.swift */; };
+		ABD04CD8297224CC00FF7DAF /* SphereParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CD5297224CC00FF7DAF /* SphereParameters.swift */; };
+		ABD04CDA297224F700FF7DAF /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CD9297224F700FF7DAF /* Operators.swift */; };
+		ABD04CDB297224F700FF7DAF /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CD9297224F700FF7DAF /* Operators.swift */; };
+		ABD04CDC297224F700FF7DAF /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD04CD9297224F700FF7DAF /* Operators.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABD04CB52972244100FF7DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD04C9B2972244000FF7DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD04CA22972244000FF7DAF;
+			remoteInfo = sphereCube;
+		};
+		ABD04CBF2972244100FF7DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD04C9B2972244000FF7DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD04CA22972244000FF7DAF;
+			remoteInfo = sphereCube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABD04CA32972244000FF7DAF /* sphereCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sphereCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD04CA62972244000FF7DAF /* sphereCubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sphereCubeApp.swift; sourceTree = "<group>"; };
+		ABD04CA82972244000FF7DAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABD04CAA2972244100FF7DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABD04CAC2972244100FF7DAF /* sphereCube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sphereCube.entitlements; sourceTree = "<group>"; };
+		ABD04CAE2972244100FF7DAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABD04CB42972244100FF7DAF /* sphereCubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sphereCubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD04CB82972244100FF7DAF /* sphereCubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sphereCubeTests.swift; sourceTree = "<group>"; };
+		ABD04CBE2972244100FF7DAF /* sphereCubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sphereCubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD04CC22972244100FF7DAF /* sphereCubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sphereCubeUITests.swift; sourceTree = "<group>"; };
+		ABD04CC42972244100FF7DAF /* sphereCubeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sphereCubeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABD04CD1297224AC00FF7DAF /* CubeParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeParameters.swift; sourceTree = "<group>"; };
+		ABD04CD5297224CC00FF7DAF /* SphereParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereParameters.swift; sourceTree = "<group>"; };
+		ABD04CD9297224F700FF7DAF /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD04CA02972244000FF7DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD04CB12972244100FF7DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD04CBB2972244100FF7DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD04C9A2972244000FF7DAF = {
+			isa = PBXGroup;
+			children = (
+				ABD04CA52972244000FF7DAF /* sphereCube */,
+				ABD04CB72972244100FF7DAF /* sphereCubeTests */,
+				ABD04CC12972244100FF7DAF /* sphereCubeUITests */,
+				ABD04CA42972244000FF7DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD04CA42972244000FF7DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD04CA32972244000FF7DAF /* sphereCube.app */,
+				ABD04CB42972244100FF7DAF /* sphereCubeTests.xctest */,
+				ABD04CBE2972244100FF7DAF /* sphereCubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD04CA52972244000FF7DAF /* sphereCube */ = {
+			isa = PBXGroup;
+			children = (
+				ABD04CD9297224F700FF7DAF /* Operators.swift */,
+				ABD04CA62972244000FF7DAF /* sphereCubeApp.swift */,
+				ABD04CA82972244000FF7DAF /* ContentView.swift */,
+				ABD04CD1297224AC00FF7DAF /* CubeParameters.swift */,
+				ABD04CD5297224CC00FF7DAF /* SphereParameters.swift */,
+				ABD04CAA2972244100FF7DAF /* Assets.xcassets */,
+				ABD04CAC2972244100FF7DAF /* sphereCube.entitlements */,
+				ABD04CAD2972244100FF7DAF /* Preview Content */,
+			);
+			path = sphereCube;
+			sourceTree = "<group>";
+		};
+		ABD04CAD2972244100FF7DAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABD04CAE2972244100FF7DAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABD04CB72972244100FF7DAF /* sphereCubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD04CB82972244100FF7DAF /* sphereCubeTests.swift */,
+			);
+			path = sphereCubeTests;
+			sourceTree = "<group>";
+		};
+		ABD04CC12972244100FF7DAF /* sphereCubeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD04CC22972244100FF7DAF /* sphereCubeUITests.swift */,
+				ABD04CC42972244100FF7DAF /* sphereCubeUITestsLaunchTests.swift */,
+			);
+			path = sphereCubeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD04CA22972244000FF7DAF /* sphereCube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD04CC82972244100FF7DAF /* Build configuration list for PBXNativeTarget "sphereCube" */;
+			buildPhases = (
+				ABD04C9F2972244000FF7DAF /* Sources */,
+				ABD04CA02972244000FF7DAF /* Frameworks */,
+				ABD04CA12972244000FF7DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sphereCube;
+			productName = sphereCube;
+			productReference = ABD04CA32972244000FF7DAF /* sphereCube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD04CB32972244100FF7DAF /* sphereCubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD04CCB2972244100FF7DAF /* Build configuration list for PBXNativeTarget "sphereCubeTests" */;
+			buildPhases = (
+				ABD04CB02972244100FF7DAF /* Sources */,
+				ABD04CB12972244100FF7DAF /* Frameworks */,
+				ABD04CB22972244100FF7DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD04CB62972244100FF7DAF /* PBXTargetDependency */,
+			);
+			name = sphereCubeTests;
+			productName = sphereCubeTests;
+			productReference = ABD04CB42972244100FF7DAF /* sphereCubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABD04CBD2972244100FF7DAF /* sphereCubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD04CCE2972244100FF7DAF /* Build configuration list for PBXNativeTarget "sphereCubeUITests" */;
+			buildPhases = (
+				ABD04CBA2972244100FF7DAF /* Sources */,
+				ABD04CBB2972244100FF7DAF /* Frameworks */,
+				ABD04CBC2972244100FF7DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD04CC02972244100FF7DAF /* PBXTargetDependency */,
+			);
+			name = sphereCubeUITests;
+			productName = sphereCubeUITests;
+			productReference = ABD04CBE2972244100FF7DAF /* sphereCubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD04C9B2972244000FF7DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ABD04CA22972244000FF7DAF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ABD04CB32972244100FF7DAF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABD04CA22972244000FF7DAF;
+					};
+					ABD04CBD2972244100FF7DAF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ABD04CA22972244000FF7DAF;
+					};
+				};
+			};
+			buildConfigurationList = ABD04C9E2972244000FF7DAF /* Build configuration list for PBXProject "sphereCube" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD04C9A2972244000FF7DAF;
+			productRefGroup = ABD04CA42972244000FF7DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD04CA22972244000FF7DAF /* sphereCube */,
+				ABD04CB32972244100FF7DAF /* sphereCubeTests */,
+				ABD04CBD2972244100FF7DAF /* sphereCubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD04CA12972244000FF7DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD04CAF2972244100FF7DAF /* Preview Assets.xcassets in Resources */,
+				ABD04CAB2972244100FF7DAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD04CB22972244100FF7DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD04CBC2972244100FF7DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD04C9F2972244000FF7DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD04CD6297224CC00FF7DAF /* SphereParameters.swift in Sources */,
+				ABD04CDA297224F700FF7DAF /* Operators.swift in Sources */,
+				ABD04CA92972244000FF7DAF /* ContentView.swift in Sources */,
+				ABD04CD2297224AC00FF7DAF /* CubeParameters.swift in Sources */,
+				ABD04CA72972244000FF7DAF /* sphereCubeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD04CB02972244100FF7DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD04CD3297224AC00FF7DAF /* CubeParameters.swift in Sources */,
+				ABD04CDB297224F700FF7DAF /* Operators.swift in Sources */,
+				ABD04CB92972244100FF7DAF /* sphereCubeTests.swift in Sources */,
+				ABD04CD7297224CC00FF7DAF /* SphereParameters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD04CBA2972244100FF7DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD04CD8297224CC00FF7DAF /* SphereParameters.swift in Sources */,
+				ABD04CDC297224F700FF7DAF /* Operators.swift in Sources */,
+				ABD04CC52972244100FF7DAF /* sphereCubeUITestsLaunchTests.swift in Sources */,
+				ABD04CD4297224AC00FF7DAF /* CubeParameters.swift in Sources */,
+				ABD04CC32972244100FF7DAF /* sphereCubeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD04CB62972244100FF7DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD04CA22972244000FF7DAF /* sphereCube */;
+			targetProxy = ABD04CB52972244100FF7DAF /* PBXContainerItemProxy */;
+		};
+		ABD04CC02972244100FF7DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD04CA22972244000FF7DAF /* sphereCube */;
+			targetProxy = ABD04CBF2972244100FF7DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABD04CC62972244100FF7DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABD04CC72972244100FF7DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ABD04CC92972244100FF7DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sphereCube/sphereCube.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sphereCube/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LS.sphereCube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABD04CCA2972244100FF7DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sphereCube/sphereCube.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sphereCube/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LS.sphereCube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABD04CCC2972244100FF7DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LS.sphereCubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sphereCube.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sphereCube";
+			};
+			name = Debug;
+		};
+		ABD04CCD2972244100FF7DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LS.sphereCubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sphereCube.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/sphereCube";
+			};
+			name = Release;
+		};
+		ABD04CCF2972244100FF7DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LS.sphereCubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sphereCube;
+			};
+			name = Debug;
+		};
+		ABD04CD02972244100FF7DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LS.sphereCubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sphereCube;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD04C9E2972244000FF7DAF /* Build configuration list for PBXProject "sphereCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD04CC62972244100FF7DAF /* Debug */,
+				ABD04CC72972244100FF7DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD04CC82972244100FF7DAF /* Build configuration list for PBXNativeTarget "sphereCube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD04CC92972244100FF7DAF /* Debug */,
+				ABD04CCA2972244100FF7DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD04CCB2972244100FF7DAF /* Build configuration list for PBXNativeTarget "sphereCubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD04CCC2972244100FF7DAF /* Debug */,
+				ABD04CCD2972244100FF7DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD04CCE2972244100FF7DAF /* Build configuration list for PBXNativeTarget "sphereCubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD04CCF2972244100FF7DAF /* Debug */,
+				ABD04CD02972244100FF7DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD04C9B2972244000FF7DAF /* Project object */;
+}
