@@ -8,14 +8,14 @@
 import SwiftUI
 
 class CubeParameters: NSObject {
-    /// <#Description#>
+    /// Cube Area
     /// - Parameter radius: user input radius
     /// - Returns: surface area of a cube with the given radius
     func cubeArea(radius: Double) -> Double{
         return 6*((radius * 2.0)↑(2.0))
     }
     
-    /// Cube volume
+    /// Cube Volume
     /// - Parameter radius: user input radius
     /// - Returns: volume of a cube with the given radius
     func cubeVolume(radius: Double) -> Double{
